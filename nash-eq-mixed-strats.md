@@ -37,7 +37,6 @@ Here is an example of a game between a government and a citizen where the govern
 | **Audit**     | -a, b     | c, 0 |       
 | **Trust**     | -t, s     | d, e |
 
-
 If the government chooses to "audit" and the citizen chooses to "pay taxes", the government incurs a cost of a, and the citizen receives a benefit of b.
 If the government chooses to "audit" and the citizen chooses to "evade taxes", the government receives a benefit of c (e.g., in the form of fines or penalties), and the citizen receives no benefit.
 If the government chooses to "trust" and the citizen chooses to "pay taxes", the government incurs a cost of t, and the citizen receives a benefit of s.
@@ -54,3 +53,18 @@ However, there may be other Nash equilibria in this game, depending on the value
 | Trust | 78/256  | 18/256 |
 
 $\therefore\sum(Payoffs) = 1$
+
+<hr>
+
+#### What if S is in infinite set (infinite moves)?
+
+[todo]
+
+#### What is a mixed strategy in a cournot game?
+
+[todo]
+
+#### Individual Randomisation
+
+If the taxpayer knows what the government is going to do, he can calculate the best response. Thus the government can use an indiduvually, truly randomised functions such as using a roulette to decide whether to audit or trust, is important.
+
