@@ -30,7 +30,7 @@ However, this outcome is not socially optimal, as both players would receive a h
 
 #### citizen and government tax evasion game
 
-Here is an example of a game between a government and a citizen where the government has two possible moves: "audit" and "trust", and the citizen has two possible moves: "pay taxes" and "evade taxes":
+Here is an example of a game between a government and a citizen where the government has two possible moves: "audit" and "trust", and the citizen has two possible moves: "pay taxes" and "evade taxes" ~ players are (citizen, government):
 
 | | Pay Taxes | Evade Taxes |
 |----------|-----------|-------------|
@@ -67,4 +67,24 @@ $\therefore\sum(Payoffs) = 1$
 #### Individual Randomisation
 
 If the taxpayer knows what the government is going to do, he can calculate the best response. Thus the government can use an indiduvually, truly randomised functions such as using a roulette to decide whether to audit or trust, is important.
+
+#### A Nash Equilibrium in Mixed Strategies (formally)
+
+- A pure strategy is a special case if a mixed strategy in which $P_i$=1 for one i, $P_i$=0 for all other $i’s$
+
+- A profile of mixed strategies ($\sigma_1,\sigma_2....\sigma_n$), such that for every player $i$, such that for every player $i$, $\sigma\epsilon BR_i(\sigma_{-1})$, where Best Response is interprested in terms of expected payoffs. 
+- BR~”Maximise expected payoffs”
+- Can I use pure strategy to do better than mixed strategy? The answer is **No**.
+
+
+
+#### Stop and Go
+
+The stop-and-go game is a simple two-player game in game theory that can be used to model situations where one player (the leader) can influence the actions of the other player (the follower) by choosing when to stop and start. The game is often used to analyze strategic behavior in traffic control, but it can also be applied to other contexts where one player has control over the timing of events that affect the other player's decision-making.
+
+In the stop-and-go game, the leader chooses when to stop and when to start, and the follower chooses whether to continue moving or to stop at each decision point. The game is typically represented as a sequence of rounds, where in each round, the leader chooses whether to stop or continue, and the follower then chooses whether to stop or continue based on the leader's choice. The game continues for a fixed number of rounds, or until one of the players decides to stop for good.
+
+The payoff for each player is determined by their stopping times. The leader's goal is to maximize the total time that the follower spends stopped, while the follower's goal is to minimize their own total waiting time. The specific payoffs depend on the rules of the game and the timing of the stops and starts.
+
+The stop-and-go game can be analyzed using game-theoretic concepts such as backward induction and subgame perfection to find the Nash equilibrium, where neither player has an incentive to deviate from their strategy given the other player's strategy. The game can also be extended to include more complex situations, such as multiple leaders or followers, or where the players have different preferences or incentives.
 
